@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="welcome-section">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Hey! I am Shubham.</p>
+                <p>Web Developer</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+             <!-- <img src="your-image.jpg" alt="Your Image"> -->
+                <p>Hello, I'm Shubham, a web developer specializing in creating modern and responsive websites. I have a passion for coding and a keen eye for design, ensuring that each project I work on is both functional and visually appealing.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <img src="clouds.png" alt="Project 1">
+                    <h3>Weather App</h3>
+                    <p>Created a fully responsive Weather app that retrieve the weather data from open weather map API</p>
+                </div>
+                <div class="project-item">
+                    <img src="icon.png" alt="Project 2">
+                    <h3>To-Do List App</h3>
+                    <p>Created a fully responsive To-Do List app that shows completed tasks and pending tasks</p> 
+                  
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me through the form below or via my social media channels:</p>
+            <form action="https://formspree.io/f/{your-form-id}" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shubham. All rights reserved.</p>
+        <p>
+            Connect with me:
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/your-username" target="_blank">GitHub</a> |
+            <a href="mailto:your.email@example.com">Email</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
